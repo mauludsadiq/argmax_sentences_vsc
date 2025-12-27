@@ -1,0 +1,1 @@
+{"command":"/opt/pyvenv/bin/python demo_next_token_argmax.py","notes":"Argmax-only next-token selector demo (no softmax/training).","run_id":"demo_next_token_argmax","stdout_path":"artifacts/demo_output.txt","stdout_sha256":"f40fa66768ceb226cb2e8f4809c918e799ba3c8867fe9912a5cb07934167e00d","timestamp_utc":"2025-12-26T22:52:48Z"}

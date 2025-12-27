@@ -1,0 +1,1 @@
+{"classes":["big","cold","city","busy","pizza","subway","finance","art","ai","startup","election","senate"],"features":["new","york","paris","wall","street","senate","election","ai","startup","pizza","subway","art","cold","winter"],"num_pairs":10,"out_npz":"artifacts/learned_Wb.npz","schema":"argmax-sentences/train-report/v0.1","text_path":"data/train.txt","window":20}

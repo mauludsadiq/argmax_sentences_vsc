@@ -1,0 +1,108 @@
+CONTEXT: New York is a city
+tokens: ['new', 'york', 'is', 'a', 'city']
+features φ(context): [('new', 1), ('york', 1)]
+top logits: [('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6), ('art', 0.42)]
+argmax next token: city (index=2) margin= 0.5
+------------------------------------------------------------------------
+CONTEXT: New York pizza and subway
+tokens: ['new', 'york', 'pizza', 'and', 'subway']
+features φ(context): [('new', 1), ('york', 1), ('pizza', 1), ('subway', 1)]
+top logits: [('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6), ('art', 0.42)]
+argmax next token: city (index=2) margin= 0.5
+------------------------------------------------------------------------
+CONTEXT: Paris is art
+tokens: ['paris', 'is', 'art']
+features φ(context): [('paris', 1), ('art', 1)]
+top logits: [('art', 1.52), ('city', 1.0), ('ai', 0.05), ('big', 0.0), ('cold', 0.0), ('busy', 0.0)]
+argmax next token: art (index=7) margin= 0.52
+------------------------------------------------------------------------
+CONTEXT: Wall Street finance
+tokens: ['wall', 'street', 'finance']
+features φ(context): [('wall', 1), ('street', 1)]
+top logits: [('finance', 3.4), ('city', 0.1), ('ai', 0.05), ('art', 0.02), ('big', 0.0), ('cold', 0.0)]
+argmax next token: finance (index=6) margin= 3.3
+------------------------------------------------------------------------
+CONTEXT: The election and the senate
+tokens: ['the', 'election', 'and', 'the', 'senate']
+features φ(context): [('senate', 1), ('election', 1)]
+top logits: [('senate', 2.6), ('election', 2.3), ('city', 0.1), ('ai', 0.05), ('art', 0.02), ('big', 0.0)]
+argmax next token: senate (index=11) margin= 0.3
+------------------------------------------------------------------------
+CONTEXT: AI startup in New York
+tokens: ['ai', 'startup', 'in', 'new', 'york']
+features φ(context): [('new', 1), ('york', 1), ('ai', 1), ('startup', 1)]
+top logits: [('startup', 2.6), ('ai', 2.55), ('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4)]
+argmax next token: startup (index=9) margin= 0.05
+------------------------------------------------------------------------
+CONTEXT: AI startup in New York wall street
+tokens: ['ai', 'startup', 'in', 'new', 'york', 'wall', 'street']
+features φ(context): [('new', 1), ('york', 1), ('wall', 1), ('street', 1), ('ai', 1), ('startup', 1)]
+top logits: [('finance', 4.0), ('startup', 2.6), ('ai', 2.55), ('city', 2.5), ('subway', 2.0), ('busy', 1.6)]
+argmax next token: finance (index=6) margin= 1.4
+------------------------------------------------------------------------
+CONTEXT: Winter is cold in New York
+tokens: ['winter', 'is', 'cold', 'in', 'new', 'york']
+features φ(context): [('new', 1), ('york', 1), ('cold', 1), ('winter', 1)]
+top logits: [('cold', 4.0), ('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6)]
+argmax next token: cold (index=1) margin= 1.5
+------------------------------------------------------------------------
+CONTEXT: New York and Paris
+tokens: ['new', 'york', 'and', 'paris']
+features φ(context): [('new', 1), ('york', 1), ('paris', 1)]
+top logits: [('city', 3.4), ('subway', 2.0), ('art', 1.92), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6)]
+argmax next token: city (index=2) margin= 1.4
+------------------------------------------------------------------------
+CONTEXT: New York is a city
+tokens: ['new', 'york', 'is', 'a', 'city']
+features φ(context): [('new', 1), ('york', 1)]
+top logits: [('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6), ('art', 0.42)]
+argmax next token: city (index=2) margin= 0.5
+------------------------------------------------------------------------
+CONTEXT: New York pizza and subway
+tokens: ['new', 'york', 'pizza', 'and', 'subway']
+features φ(context): [('new', 1), ('york', 1), ('pizza', 1), ('subway', 1)]
+top logits: [('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6), ('art', 0.42)]
+argmax next token: city (index=2) margin= 0.5
+------------------------------------------------------------------------
+CONTEXT: Paris is art
+tokens: ['paris', 'is', 'art']
+features φ(context): [('paris', 1), ('art', 1)]
+top logits: [('art', 1.52), ('city', 1.0), ('ai', 0.05), ('big', 0.0), ('cold', 0.0), ('busy', 0.0)]
+argmax next token: art (index=7) margin= 0.52
+------------------------------------------------------------------------
+CONTEXT: Wall Street finance
+tokens: ['wall', 'street', 'finance']
+features φ(context): [('wall', 1), ('street', 1)]
+top logits: [('finance', 3.4), ('city', 0.1), ('ai', 0.05), ('art', 0.02), ('big', 0.0), ('cold', 0.0)]
+argmax next token: finance (index=6) margin= 3.3
+------------------------------------------------------------------------
+CONTEXT: The election and the senate
+tokens: ['the', 'election', 'and', 'the', 'senate']
+features φ(context): [('senate', 1), ('election', 1)]
+top logits: [('senate', 2.6), ('election', 2.3), ('city', 0.1), ('ai', 0.05), ('art', 0.02), ('big', 0.0)]
+argmax next token: senate (index=11) margin= 0.3
+------------------------------------------------------------------------
+CONTEXT: AI startup in New York
+tokens: ['ai', 'startup', 'in', 'new', 'york']
+features φ(context): [('new', 1), ('york', 1), ('ai', 1), ('startup', 1)]
+top logits: [('startup', 2.6), ('ai', 2.55), ('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4)]
+argmax next token: startup (index=9) margin= 0.05
+------------------------------------------------------------------------
+CONTEXT: AI startup in New York wall street
+tokens: ['ai', 'startup', 'in', 'new', 'york', 'wall', 'street']
+features φ(context): [('new', 1), ('york', 1), ('wall', 1), ('street', 1), ('ai', 1), ('startup', 1)]
+top logits: [('finance', 4.0), ('startup', 2.6), ('ai', 2.55), ('city', 2.5), ('subway', 2.0), ('busy', 1.6)]
+argmax next token: finance (index=6) margin= 1.4
+------------------------------------------------------------------------
+CONTEXT: Winter is cold in New York
+tokens: ['winter', 'is', 'cold', 'in', 'new', 'york']
+features φ(context): [('new', 1), ('york', 1), ('cold', 1), ('winter', 1)]
+top logits: [('cold', 4.0), ('city', 2.5), ('subway', 2.0), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6)]
+argmax next token: cold (index=1) margin= 1.5
+------------------------------------------------------------------------
+CONTEXT: New York and Paris
+tokens: ['new', 'york', 'and', 'paris']
+features φ(context): [('new', 1), ('york', 1), ('paris', 1)]
+top logits: [('city', 3.4), ('subway', 2.0), ('art', 1.92), ('busy', 1.6), ('pizza', 1.4), ('finance', 0.6)]
+argmax next token: city (index=2) margin= 1.4
+------------------------------------------------------------------------

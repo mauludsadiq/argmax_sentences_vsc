@@ -1,0 +1,14 @@
+{
+  "schema": "argmax-sentences/contexts/v0.1",
+  "contexts": [
+    "New York is a city",
+    "New York pizza and subway",
+    "Paris is art",
+    "Wall Street finance",
+    "The election and the senate",
+    "AI startup in New York",
+    "AI startup in New York wall street",
+    "Winter is cold in New York",
+    "New York and Paris"
+  ]
+}

@@ -1,0 +1,56 @@
+CONTEXT_START: New York is a city
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: New York is a city cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 0.799603
+------------------------------------------------------------------------
+CONTEXT_START: New York pizza and subway
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: New York pizza and subway cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 0.453352
+------------------------------------------------------------------------
+CONTEXT_START: Paris is art
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: Paris is art cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 1.216304
+------------------------------------------------------------------------
+CONTEXT_START: Wall Street finance
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: Wall Street finance cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 1.229759
+------------------------------------------------------------------------
+CONTEXT_START: The election and the senate
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: The election and the senate cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 1.368316
+------------------------------------------------------------------------
+CONTEXT_START: AI startup in New York
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: AI startup in New York cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 0.74517
+------------------------------------------------------------------------
+CONTEXT_START: AI startup in New York wall street
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: AI startup in New York wall street cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 0.326165
+------------------------------------------------------------------------
+CONTEXT_START: Winter is cold in New York
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: Winter is cold in New York cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 0.782015
+------------------------------------------------------------------------
+CONTEXT_START: New York and Paris
+MODE: greedy TEMP: 1.0 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: New York and Paris cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_MARGIN: 0.803848
+------------------------------------------------------------------------
+WROTE: artifacts/trace.json
+WROTE: artifacts/logits_heatmap.png
