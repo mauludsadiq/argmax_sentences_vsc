@@ -1,0 +1,74 @@
+CONTEXT_START: New York is a city
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: busy finance big city city city city busy busy pizza busy subway
+CONTEXT_FINAL: New York is a city busy finance big city city city city busy busy pizza busy subway
+LAST_P_TOP1: 0.226399
+LAST_ENTROPY: 2.281637
+LAST_MARGIN: 0.5
+------------------------------------------------------------------------
+CONTEXT_START: New York pizza and subway
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: city startup big subway busy subway city city art senate busy subway
+CONTEXT_FINAL: New York pizza and subway city startup big subway busy subway city city art senate busy subway
+LAST_P_TOP1: 0.226399
+LAST_ENTROPY: 2.281637
+LAST_MARGIN: 0.5
+------------------------------------------------------------------------
+CONTEXT_START: Paris is art
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: election election cold big city election cold subway senate finance art busy
+CONTEXT_FINAL: Paris is art election election cold big city election cold subway senate finance art busy
+LAST_P_TOP1: 0.186936
+LAST_ENTROPY: 2.410439
+LAST_MARGIN: 0.52
+------------------------------------------------------------------------
+CONTEXT_START: Wall Street finance
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: finance ai big finance senate finance subway art city finance election finance
+CONTEXT_FINAL: Wall Street finance finance ai big finance senate finance subway art city finance election finance
+LAST_P_TOP1: 0.464624
+LAST_ENTROPY: 1.974304
+LAST_MARGIN: 3.3
+------------------------------------------------------------------------
+CONTEXT_START: The election and the senate
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: subway city big election pizza subway startup cold election city election election
+CONTEXT_FINAL: The election and the senate subway city big election pizza subway startup cold election city election election
+LAST_P_TOP1: 0.277299
+LAST_ENTROPY: 2.181381
+LAST_MARGIN: 0.3
+------------------------------------------------------------------------
+CONTEXT_START: AI startup in New York
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: city subway ai subway cold finance ai finance election art startup city
+CONTEXT_FINAL: AI startup in New York city subway ai subway cold finance ai finance election art startup city
+LAST_P_TOP1: 0.174217
+LAST_ENTROPY: 2.266758
+LAST_MARGIN: 0.05
+------------------------------------------------------------------------
+CONTEXT_START: AI startup in New York wall street
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: city ai finance busy startup subway ai ai startup finance ai subway
+CONTEXT_FINAL: AI startup in New York wall street city ai finance busy startup subway ai ai startup finance ai subway
+LAST_P_TOP1: 0.317105
+LAST_ENTROPY: 2.113764
+LAST_MARGIN: 1.4
+------------------------------------------------------------------------
+CONTEXT_START: Winter is cold in New York
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: cold ai city election pizza busy cold election city busy cold cold
+CONTEXT_FINAL: Winter is cold in New York cold ai city election pizza busy cold election city busy cold cold
+LAST_P_TOP1: 0.391323
+LAST_ENTROPY: 2.007847
+LAST_MARGIN: 1.5
+------------------------------------------------------------------------
+CONTEXT_START: New York and Paris
+MODE: sample TEMP: 1.5 STEPS: 12
+GENERATED: startup subway big subway city pizza ai city startup subway big startup
+CONTEXT_FINAL: New York and Paris startup subway big subway city pizza ai city startup subway big startup
+LAST_P_TOP1: 0.321446
+LAST_ENTROPY: 2.147659
+LAST_MARGIN: 1.4
+------------------------------------------------------------------------
+WROTE: artifacts/trace.json
+WROTE: artifacts/logits_heatmap.png

@@ -1,0 +1,74 @@
+CONTEXT_START: New York is a city
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: city city big city city city city city city city city city
+CONTEXT_FINAL: New York is a city city city big city city city city city city city city city
+LAST_P_TOP1: 0.788357
+LAST_ENTROPY: 0.701532
+LAST_MARGIN: 0.5
+------------------------------------------------------------------------
+CONTEXT_START: New York pizza and subway
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: city subway city city city city city city busy subway city city
+CONTEXT_FINAL: New York pizza and subway city subway city city city city city city busy subway city city
+LAST_P_TOP1: 0.788357
+LAST_ENTROPY: 0.701532
+LAST_MARGIN: 0.5
+------------------------------------------------------------------------
+CONTEXT_START: Paris is art
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: art art city city finance art city art art art art art
+CONTEXT_FINAL: Paris is art art art city city finance art city art art art art art
+LAST_P_TOP1: 0.805885
+LAST_ENTROPY: 0.723678
+LAST_MARGIN: 0.52
+------------------------------------------------------------------------
+CONTEXT_START: Wall Street finance
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: finance finance finance finance finance finance finance finance finance finance finance finance
+CONTEXT_FINAL: Wall Street finance finance finance finance finance finance finance finance finance finance finance finance finance
+LAST_P_TOP1: 0.999861
+LAST_ENTROPY: 0.00171
+LAST_MARGIN: 3.3
+------------------------------------------------------------------------
+CONTEXT_START: The election and the senate
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: senate election election senate election election senate election senate election senate senate
+CONTEXT_FINAL: The election and the senate senate election election senate election election senate election senate election senate senate
+LAST_P_TOP1: 0.73008
+LAST_ENTROPY: 0.594692
+LAST_MARGIN: 0.3
+------------------------------------------------------------------------
+CONTEXT_START: AI startup in New York
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: city ai startup ai city ai startup ai startup ai startup city
+CONTEXT_FINAL: AI startup in New York city ai startup ai city ai startup ai startup ai startup city
+LAST_P_TOP1: 0.362977
+LAST_ENTROPY: 1.326412
+LAST_MARGIN: 0.05
+------------------------------------------------------------------------
+CONTEXT_START: AI startup in New York wall street
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: finance finance finance finance finance finance finance finance finance finance finance finance
+CONTEXT_FINAL: AI startup in New York wall street finance finance finance finance finance finance finance finance finance finance finance finance
+LAST_P_TOP1: 0.974759
+LAST_ENTROPY: 0.151184
+LAST_MARGIN: 1.4
+------------------------------------------------------------------------
+CONTEXT_START: Winter is cold in New York
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: cold cold cold cold cold cold cold cold cold cold cold cold
+CONTEXT_FINAL: Winter is cold in New York cold cold cold cold cold cold cold cold cold cold cold cold
+LAST_P_TOP1: 0.991527
+LAST_ENTROPY: 0.054789
+LAST_MARGIN: 1.5
+------------------------------------------------------------------------
+CONTEXT_START: New York and Paris
+MODE: sample TEMP: 0.3 STEPS: 12
+GENERATED: city city city city city city city city city city city city
+CONTEXT_FINAL: New York and Paris city city city city city city city city city city city city
+LAST_P_TOP1: 0.979893
+LAST_ENTROPY: 0.122646
+LAST_MARGIN: 1.4
+------------------------------------------------------------------------
+WROTE: artifacts/trace.json
+WROTE: artifacts/logits_heatmap.png

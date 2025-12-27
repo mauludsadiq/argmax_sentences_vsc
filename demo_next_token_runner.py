@@ -23,6 +23,11 @@ def top2_margin(z: np.ndarray) -> float:
     zz = np.sort(z)
     return float(zz[-1] - zz[-2])
 
+def entropy(p: np.ndarray) -> float:
+    p = np.asarray(p, dtype=float)
+    p = p[p > 0]
+    return float(-(p * np.log(p)).sum())
+
 def load_contexts(path: str):
     obj = json.loads(Path(path).read_text(encoding="utf-8"))
     ctx = obj.get("contexts", [])
@@ -127,6 +132,7 @@ def main():
     ap.add_argument("--temp", type=float, default=1.0)
     ap.add_argument("--steps", type=int, default=12)
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--freeze_features", type=int, default=0)
     ap.add_argument("--weights", default="")
     args = ap.parse_args()
 
@@ -146,7 +152,10 @@ def main():
         step_tokens = []
 
         for t in range(args.steps):
-            x = phi(ctx)
+            if args.freeze_features:
+                x = phi(ctx0)
+            else:
+                x = phi(ctx)
             z = (W @ x) + b
             step_logits.append(z.copy())
 
@@ -162,6 +171,11 @@ def main():
 
         Z = np.stack(step_logits, axis=1)
         margin_last = top2_margin(step_logits[-1])
+        z_last = step_logits[-1]
+        i_star = int(np.argmax(z_last))
+        p_last = stable_softmax(np.asarray(z_last, dtype=float), args.temp)
+        p_top1 = float(p_last[i_star])
+        H_last = entropy(p_last)
 
         trace = {
             "context_start": ctx0,
@@ -178,6 +192,8 @@ def main():
         print("MODE:", args.mode, "TEMP:", args.temp, "STEPS:", args.steps)
         print("GENERATED:", " ".join(step_tokens))
         print("CONTEXT_FINAL:", ctx)
+        print("LAST_P_TOP1:", round(p_top1, 6))
+        print("LAST_ENTROPY:", round(H_last, 6))
         print("LAST_MARGIN:", round(margin_last, 6))
         print("-" * 72)
 
