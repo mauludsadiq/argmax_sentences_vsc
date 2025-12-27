@@ -1,0 +1,28 @@
+context,temp,p_top1,entropy,margin,run_file
+AI startup in New York,0.3,0.362977,1.326412,0.05,artifacts/run_sample_frozen_t0p3.txt
+AI startup in New York,0.7,0.260322,1.832557,0.05,artifacts/run_sample_frozen_t0p7.txt
+AI startup in New York,1.5,0.174217,2.266758,0.05,artifacts/run_sample_frozen_t1p5.txt
+AI startup in New York wall street,0.3,0.974759,0.151184,1.4,artifacts/run_sample_frozen_t0p3.txt
+AI startup in New York wall street,0.7,0.661331,1.243494,1.4,artifacts/run_sample_frozen_t0p7.txt
+AI startup in New York wall street,1.5,0.317105,2.113764,1.4,artifacts/run_sample_frozen_t1p5.txt
+New York and Paris,0.3,0.979893,0.122646,1.4,artifacts/run_sample_frozen_t0p3.txt
+New York and Paris,0.7,0.687077,1.191902,1.4,artifacts/run_sample_frozen_t0p7.txt
+New York and Paris,1.5,0.321446,2.147659,1.4,artifacts/run_sample_frozen_t1p5.txt
+New York is a city,0.3,0.788357,0.701532,0.5,artifacts/run_sample_frozen_t0p3.txt
+New York is a city,0.7,0.442086,1.687772,0.5,artifacts/run_sample_frozen_t0p7.txt
+New York is a city,1.5,0.226399,2.281637,0.5,artifacts/run_sample_frozen_t1p5.txt
+New York pizza and subway,0.3,0.788357,0.701532,0.5,artifacts/run_sample_frozen_t0p3.txt
+New York pizza and subway,0.7,0.442086,1.687772,0.5,artifacts/run_sample_frozen_t0p7.txt
+New York pizza and subway,1.5,0.226399,2.281637,0.5,artifacts/run_sample_frozen_t1p5.txt
+Paris is art,0.3,0.805885,0.723678,0.52,artifacts/run_sample_frozen_t0p3.txt
+Paris is art,0.7,0.381048,2.046529,0.52,artifacts/run_sample_frozen_t0p7.txt
+Paris is art,1.5,0.186936,2.410439,0.52,artifacts/run_sample_frozen_t1p5.txt
+The election and the senate,0.3,0.73008,0.594692,0.3,artifacts/run_sample_frozen_t0p3.txt
+The election and the senate,0.7,0.525922,1.274282,0.3,artifacts/run_sample_frozen_t0p7.txt
+The election and the senate,1.5,0.277299,2.181381,0.3,artifacts/run_sample_frozen_t1p5.txt
+Wall Street finance,0.3,0.999861,0.00171,3.3,artifacts/run_sample_frozen_t0p3.txt
+Wall Street finance,0.7,0.919546,0.472718,3.3,artifacts/run_sample_frozen_t0p7.txt
+Wall Street finance,1.5,0.464624,1.974304,3.3,artifacts/run_sample_frozen_t1p5.txt
+Winter is cold in New York,0.3,0.991527,0.054789,1.5,artifacts/run_sample_frozen_t0p3.txt
+Winter is cold in New York,0.7,0.792344,0.851656,1.5,artifacts/run_sample_frozen_t0p7.txt
+Winter is cold in New York,1.5,0.391323,2.007847,1.5,artifacts/run_sample_frozen_t1p5.txt
